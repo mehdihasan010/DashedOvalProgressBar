@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
           padding: const EdgeInsets.all(8.0),
           child: Center(
             child: DashedOvalProgressBar(
-              width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.width * 0.33,
+              width: MediaQuery.of(context).size.width / 1.1,
+              height: MediaQuery.of(context).size.width * 0.35,
               progress: 10, // 60% progress
               foregroundColor: Colors.blue,
               backgroundColor: Colors.blue.shade100,
